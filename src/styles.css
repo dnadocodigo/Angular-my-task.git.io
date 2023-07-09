@@ -1,1 +1,110 @@
-/* You can add global styles to this file, and also import other style files */
+body, ul, li,  a{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
+
+  background: #3023ae;
+  background: -moz-linear-gradient(60deg, #3023ae 0, #c86dd7 100%);
+  background: -weblit-linear-gradient(60deg, #3023ae 0, #c86dd7 100%);
+  background: linear-gradient(60deg, #3023ae 0, #c86dd7 100%);
+  filter: progid:DXImageTrandform.Microsoft.gradient(startColorstr='#3023ae', endColorsrt='#c86dd7')
+}
+
+ul{
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
+  -webket-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
+}
+li{
+  font-size: 1rem;
+  font-style: italic;
+
+  padding: 15px;
+  margin: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+button{
+  cursor: pointer;
+}
+li>button{
+  font-size: 1rem;
+  border: none;
+  float: right;
+  background: #fff;
+  opacity: 0.4;
+  transition: opacity 1s;
+}
+li>button:hover{
+  opacity: 1;
+  transition: opacity 1s;
+}
+input{
+  font-size: 1.2rem;
+  line-height: 20px;
+  text-indent: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.text-center{
+  text-align: center;
+}
+.title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 5px 3px #000;
+}
+
+.button{
+  font-size: 1rem;
+  color: #fff;
+
+  background: #000;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#modal{
+  text-align: left;
+
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
+  -webket-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
+}
+.danger{
+  display: flex;
+  font-weight: bold;
+
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  background: #ff0000;
+  color: #fff;
+}
+
