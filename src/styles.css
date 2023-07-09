@@ -25,30 +25,33 @@ body{
 
 ul{
   text-align: left;
+  color: #fff;
   margin: 10px;
   padding: 10px;
-  background: #fff;
+  background: #2F2F2D;
   border-radius: 10px;
-  box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
-  -webket-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
-  -moz-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
+  box-shadow: 3px 4px 14px 0 rgba(255, 255, 255, 0.39);
+  -webket-box-shadow: 3px 4px 14px 0 rgba(255, 255, 255, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0 rgba(255, 255, 255, 0.39);
+  border: 5px solid #647311;
 }
 li{
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-style: italic;
-
-  padding: 15px;
+  color:#fff;
+  padding: 10px;
   margin: 10px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 button{
   cursor: pointer;
 }
 li>button{
-  font-size: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
   border: none;
   float: right;
-  background: #fff;
+  background: #2F2F2D;
   opacity: 0.4;
   transition: opacity 1s;
 }
@@ -57,12 +60,16 @@ li>button:hover{
   transition: opacity 1s;
 }
 input{
-  font-size: 1.2rem;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 10px;
   text-indent: 10px;
-  width: 100%;
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  width: 97%;
   margin-bottom: 20px;
   border-radius: 6px;
+  border: 3px solid #647311;
 }
 .text-center{
   text-align: center;
@@ -71,9 +78,12 @@ input{
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
   color: #fff;
-  text-shadow: 5px 3px #000;
+  text-shadow:  5px 3px #000;
 }
-
+.aviso{
+  color: #fff;
+  font-size: 1.5rem;
+}
 .button{
   font-size: 1rem;
   color: #fff;
@@ -84,18 +94,20 @@ input{
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  border: 3px solid #647311;
 }
 
 #modal{
   text-align: left;
-
+  color: #fff;
   margin: 10px;
   padding: 10px;
   border-radius: 12px;
-  background: #fff;
-  box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
-  -webket-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
-  -moz-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, 0.39);
+  background: #2F2F2D;
+  box-shadow: 3px 4px 14px 0 rgba(255, 255, 255, 0.39);
+  -webket-box-shadow: 3px 4px 14px 0 rgba(255, 255, 255, 0.39);
+  -moz-box-shadow: 3px 4px 14px 0 rgba(255, 255, 255, 0.39);
+  border: 5px solid #647311;
 }
 .danger{
   display: flex;
