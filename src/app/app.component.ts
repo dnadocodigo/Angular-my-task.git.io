@@ -10,7 +10,7 @@ import { Todo } from './models/todo.model';
 export class AppComponent {
  public  mode: String = 'list';
  public todos: any[] = [];
- public title: String = 'Minhas Tarefas';
+ public title: String = 'Minha lista de Exercícios';
  public form: FormGroup;
 
  constructor(private fb: FormBuilder) {
@@ -23,9 +23,7 @@ export class AppComponent {
     });
     this.load();
  }
- alteraTexto(){
-  this.title = "Estou no angular";
- }
+
 
  add(){
    const title = this.form.controls['title'].value;
